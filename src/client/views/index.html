@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sentiment Analyzer</title>
+    </head>
+    <body>
+        <header>
+            <p class="site_logo">Sentiment Analyzer</p>
+        </header>
+        <div id="app">
+            <h1>Sentiment Analyzer</h1>
+            <p>Input a URL below to analyze…</p>
+            <div id="error_msg" class="initial_hide hide">
+                <p>Invalid URL. Please double-check & try again.</p>
+            </div>
+            <form id="form">
+                <input
+                    type="text"
+                    id="url"
+                    name="url"
+                    placeholder="Enter a URL"
+                    required
+                />
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="results" class="initial_hide hide">
+                <h2>Sentiment Analysis Results:</h2>
+                <ul>
+                    <li>Subjectivity: <span id="subjectivity"></span></li>
+                    <li>Confidence: <span id="confidence"></span></li>
+                    <li>Irony: <span id="irony"></span></li>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2022 Sentiment Analyzer</p>
+        </footer>
+    </body>
+</html>

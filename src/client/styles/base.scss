@@ -1,0 +1,23 @@
+@import './variables.scss';
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:regular,500,600,700,800,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: $main-light;
+    color: $main-dark;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'eb garamond', serif;
+}
+
+p,
+input,
+button,
+li {
+    font-family: 'montserrat', sans-serif;
+}

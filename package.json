@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "node ./src/server/server.js",
-        "dev": "webpack-dev-server --config webpack.dev.cjs --open",
+        "dev": "webpack-dev-server --config webpack.dev.js --open",
         "build": "webpack --config webpack.prod.js",
         "test": "jest --verbose"
     },
